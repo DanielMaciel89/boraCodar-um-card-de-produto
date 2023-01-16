@@ -1,0 +1,80 @@
+:root {
+  --color: #271a45;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #d9cdf7;
+  width: 875px;
+  height: 498px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 138px;
+}
+
+.card {
+  display: inline-block;
+}
+#giro360 {
+  position: relative;
+  right: -370px;
+  top: -200px;
+}
+#pararGiro {
+  display: none;
+  position: relative;
+  right: -380px;
+  top: -215px;
+}
+#giro360On {
+  display: none;
+  width: 465px;
+}
+.produtoInf {
+  position: relative;
+  display: inline-block;
+  top: -140px;
+}
+
+.cod {
+  margin: 12px;
+  font-family: "Lato";
+  display: block;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 100%;
+  color: var(--color);
+}
+.textoSofa {
+  margin: 12px;
+  font-family: "Crimson Pro";
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  color: var(--color);
+}
+.valor {
+  margin: 12px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: var(--color);
+}
+#btnAdicionar {
+  position: relative;
+  top: -120px;
+  right: -500px;
+  text-transform: uppercase;
+  width: 148px;
+  height: 32px;
+  border: 0.5px solid var(--color);
+  border-radius: 999px;
+  background: #d9cdf7;
+  text-align: center;
+  color: var(--color);
+}
